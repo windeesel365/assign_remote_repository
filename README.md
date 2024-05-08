@@ -1,52 +1,66 @@
-all git commands
+# Git Commands
 
-git init
-Initializes a new Git repository in the selected directory.
+A collection of essential Git commands with explanations.
 
-git clone [URL]
-Copies a repository from the URL to the local system.
+## Initialization and Cloning
 
-git status
-Displays the repository's status, such as files that have been changed but not committed.
+- **`git init`**  
+  Initializes a new Git repository in the selected directory.
 
-git add [filename]
-Adds files to the staging area, preparing them for a commit.
+- **`git clone [URL]`**  
+  Copies a repository from the URL to the local system.
 
-git commit -m "[message]"
-Commits files in the staging area with the provided commit message.
+## Repository Status
 
-git push [remote] [branch]
-Sends the committed changes to a remote repository, such as GitHub or GitLab.
+- **`git status`**  
+  Displays the repository's status, such as files that have been changed but not committed.
 
-git pull [remote] [branch]
-Fetches changes from the remote repository to the local repository and merges them with the current branch.
+## Staging and Committing
 
-git branch [branch_name]
-Creates a new branch from the current branch.
+- **`git add [filename]`**  
+  Adds files to the staging area, preparing them for a commit.
 
-git checkout [branch_name]
-Switches to the specified branch or uses -b to create and switch to a new branch.
+- **`git commit -m "[message]"`**  
+  Commits files in the staging area with the provided commit message.
 
-git merge [branch_name]
-Merges changes from the specified branch into the current branch.
+## Working with Remotes
 
-git log
-Displays a history of commits.
+- **`git push [remote] [branch]`**  
+  Sends the committed changes to a remote repository, such as GitHub or GitLab.
 
-git remote add [name] [URL]
-Adds a new remote repository with the specified name and URL.
+- **`git pull [remote] [branch]`**  
+  Fetches changes from the remote repository to the local repository and merges them with the current branch.
 
-git fetch [remote]
-Fetches the latest changes from a remote repository without automatically merging them into the current branch.
+- **`git fetch [remote]`**  
+  Fetches the latest changes from a remote repository without automatically merging them into the current branch.
 
-git reset [options]
-Reverts changes, such as removing files from the staging area or rolling back a commit.
+- **`git remote add [name] [URL]`**  
+  Adds a new remote repository with the specified name and URL.
 
-git stash
-Temporarily stores uncommitted changes to use them later.
+## Branch Management
 
-git rebase [branch]
-Moves or integrates an existing branch into the specified branch without creating new commits.
+- **`git branch [branch_name]`**  
+  Creates a new branch from the current branch.
 
-git tag [name]
-Creates a tag for the current commit to mark a version or other significant notes.
+- **`git checkout [branch_name]`**  
+  Switches to the specified branch or uses `-b` to create and switch to a new branch.
+
+- **`git merge [branch_name]`**  
+  Merges changes from the specified branch into the current branch.
+
+- **`git rebase [branch]`**  
+  Moves or integrates an existing branch into the specified branch without creating new commits.
+
+## Other Useful Commands
+
+- **`git log`**  
+  Displays a history of commits.
+
+- **`git reset [options]`**  
+  Reverts changes, such as removing files from the staging area or rolling back a commit.
+
+- **`git stash`**  
+  Temporarily stores uncommitted changes to use them later.
+
+- **`git tag [name]`**  
+  Creates a tag for the current commit to mark a version or other significant notes.
